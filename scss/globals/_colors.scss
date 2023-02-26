@@ -1,0 +1,18 @@
+:root {
+  // text primary
+  --primary-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --primary-soft-red: hsl(14, 88%, 65%);
+
+  // Background gradient:
+  --background-gradient: linear-gradient(
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+
+  // text neutral
+  --neutral-very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --neutral-dark-grayish-blue: hsl(240, 6%, 50%);
+
+  //  Dividers
+  --drivers-light-grayish-blue: hsl(240, 5%, 91%);
+}

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 48rem) {
+  .faq {
+    padding: 2rem 90px 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .container {
+    // layout
+    display: flex;
+    flex-direction: column;
+  }
+  .faq {
+    padding: 2rem 1.5rem;
+    &__title {
+      text-align: center;
+    }
+  }
+}
