@@ -10,44 +10,20 @@ body {
 
 .container {
   border-radius: 1rem;
-  background-color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   // layout
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   max-width: 920px;
-  height: 500px;
+  min-height: 500px;
   margin: 0 1rem;
 
   // position
   position: relative;
-  overflow: hidden;
 }
 
-// images
-// desktop
-.bg-pattern {
-  position: absolute;
-  top: -280px;
-  left: -500px;
-}
-
-.illustration {
-  position: relative;
-  overflow: hidden;
-
-  &-woman {
-    position: relative;
-    left: -70px;
-    top: 70px;
-  }
-}
-
-// mobile
-.woman-mobile {
-  position: absolute;
-  display: block;
-}
+// illustration
 
 // faq
 .faq {
